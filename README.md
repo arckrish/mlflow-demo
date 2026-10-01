@@ -24,6 +24,7 @@ A hands-on demo covering all key MLflow features available in Red Hat OpenShift 
 - RHOAI 3.5 installed
 - `oc` CLI access with cluster-admin (for notebook 00 only)
 - An OpenShift project (namespace) to use as your MLflow workspace
+- Refer to [ai-accelerator](https://github.com/redhat-ai-services/ai-accelerator) for installing RHOAI 
 
 > If your cluster already has a running `MLflowTrackingServer`, skip notebook 00 and start at notebook 01.
 
