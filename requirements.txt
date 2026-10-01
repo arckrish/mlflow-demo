@@ -1,0 +1,20 @@
+# MLflow RHOAI 3.5 Demo — Python dependencies
+# Install with: pip install -r requirements.txt
+
+# Core MLflow with Kubernetes auth plugin (required for RHOAI)
+mlflow[kubernetes]>=3.11
+
+# ML libraries used in the demo notebooks
+scikit-learn>=1.3.0
+numpy>=1.24.0
+pandas>=2.0.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Jupyter
+notebook>=7.0.0
+ipywidgets>=8.0.0
+
+# Optional: for GenAI tracing notebook (notebook 04)
+# openai>=1.0.0         # if calling OpenAI API
+# anthropic>=0.20.0     # if calling Anthropic API
